@@ -5,5 +5,7 @@ nltk
 scikit-learn
 matplotlib
 seaborn
-app-store-scraper
+dotenv
 pydantic
+langchain[openai]
+pytest

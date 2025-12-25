@@ -1,0 +1,146 @@
+{
+  "app_name": "tiktok",
+  "generated_at": "2025-12-25T13:32:22",
+  "metrics": {
+    "average_rating": 2.82,
+    "rating_distribution": {
+      "1_star": 41.0,
+      "2_star": 9.0,
+      "3_star": 9.0,
+      "4_star": 9.0,
+      "5_star": 32.0
+    },
+    "total_reviews": 100
+  },
+  "sentiment_distribution": {
+    "positive": 50,
+    "neutral": 17,
+    "negative": 33
+  },
+  "negative_phrases": [
+    "TIKTOK IS NOT TIKTOK ANYMORE More ads than content.",
+    "And now you’ve updated so copycat Threads.",
+    "Social media has lost the plot quicker than Netflix.",
+    "They turn a blind eye to black issues and racism.",
+    "Love hate It’s mostly ads for dumb mobile games, AI garbage, useless Lemon 8 notifications that you can’t turn off and a blocking function that doesn’t work.",
+    "Worst social media app ever let me tell u why So I made an account and I started posting videos and I play this game called “steal a Brainrot”and I’m looking to trade and I traded and then this guy named djay_sab started being racist saying that slaves killed people like me (Latinos) and then I say one mean word ONE MEAN WORD and then I got my account banned from messaging,and posting an my account is going to be deleted.WORST APP EVER DO NOT DOWNLOAD",
+    "No streaks I cannot streaks friend and I want STREAKS",
+    "Spam So I just sign up for it and already I’m getting spam text.",
+    "Banned account Had my account for 6 plus years.",
+    "problem about the videos when I post something or a lot of pictures they don’t separate, it’s turn into a video and not pictures and I wanted to be a picture I can browse on, but I can’t decide which one I wanna do pls fix this problem it’s so bad",
+    "Static Recently trying to upload, pics or videos will have obnoxious static sounds and won't upload at all saying failed",
+    "They just disappear whether they are mine or someone else responding to me.",
+    "The app SUCKS Hello I got this app and it was going good at the start until it said I was “too young” so it said it was gonna BAN ME and I made so many friends and followers and many fun moments that made the app feel special so I tryed to defend myself but the stupid stuff didnt work so now I can’t watch TikTok (the go to app for watching videos for me)and now I’m here and I still dunno know why they did this earlier so now I’m stuck with YouTube and brainrot kids (I also made edits that well are now much are just a waste) SO DONT GET TIKTOK",
+    "Kinda Okay I kinda like TikTok but they be letting people ban other people for no reason, i literally commented on a video, showing a man putting a shoe on another man but there was nothing inappropriate about that, I’ve seen people with memes that are NAKED and TikTok is just gonna delete MY comment instead of theres",
+    "and yall not doing nothing abt it shi sad🤣🤣",
+    "its so bad the tiktok shop shipping its too much money im trying to get something for my son and its 41 dollars for shipping that’s insane!",
+    "why I gave it a low rating I can't text on TikTok anymore",
+    "You blocked my account You blocked my account",
+    "Glitches and annoying UI changes Everyone knows tiktok is one of the best apps on the planet right now.",
+    "there’s are many issues with this app.",
+    "The glitches: the app constantly crashes when users try to stitch or duet videos, and both features are overall gimmicky and don’t run well.",
+    "Tiktok is slowly turning into Twitter with the amount of normalized hate and lack of empathy from commenters.",
+    "The constant UI changes are annoying and unnecessary.",
+    "I believe we’re slowly witnessing the fall of this app.",
+    "Algo mm Es bueno me entretiene es adictivo pero tiene algunas cosas que no funcionan entran trabadas y siempre que comparto algo me sale que no se puso en mi lista de compartidos y llega así días y semanas",
+    "BEFORE the update, I had like almost 40k views everyttime I post with more hashtags.",
+    "Like my account was literally blowing up until yall added this bull rap for real and that’s why yall getting banned now cause yall stupid, and that’s why when VINE comes back yea the APP, yall gonna see decline in yalls analysis or whatever."
+  ],
+  "negative_keywords": [
+    [
+      "tiktok",
+      18
+    ],
+    [
+      "people",
+      11
+    ],
+    [
+      "account",
+      9
+    ],
+    [
+      "hate",
+      7
+    ],
+    [
+      "yall",
+      7
+    ],
+    [
+      "banned",
+      6
+    ],
+    [
+      "content",
+      6
+    ],
+    [
+      "videos",
+      6
+    ],
+    [
+      "like",
+      5
+    ],
+    [
+      "stupid",
+      5
+    ]
+  ],
+  "insights": [
+    {
+      "area": "account_access",
+      "problem_summary": "Users face problems related to account access, bans, or login.",
+      "evidence": [
+        "Worst social media app ever let me tell u why So I made an account and I started posting videos and I play this game called “steal a Brainrot”and I’m looking to trade and I traded and then this guy named djay_sab started being racist saying that slaves killed people like me (Latinos) and then I say one mean word ONE MEAN WORD and then I got my account banned from messaging,and posting an my account is going to be deleted.WORST APP EVER DO NOT DOWNLOAD",
+        "Banned account Had my account for 6 plus years.",
+        "The app SUCKS Hello I got this app and it was going good at the start until it said I was “too young” so it said it was gonna BAN ME and I made so many friends and followers and many fun moments that made the app feel special so I tryed to defend myself but the stupid stuff didnt work so now I can’t watch TikTok (the go to app for watching videos for me)and now I’m here and I still dunno know why they did this earlier so now I’m stuck with YouTube and brainrot kids (I also made edits that well are now much are just a waste) SO DONT GET TIKTOK",
+        "Kinda Okay I kinda like TikTok but they be letting people ban other people for no reason, i literally commented on a video, showing a man putting a shoe on another man but there was nothing inappropriate about that, I’ve seen people with memes that are NAKED and TikTok is just gonna delete MY comment instead of theres"
+      ],
+      "count": 4,
+      "total": 15,
+      "confidence": 0.27,
+      "recommendation": "Improve transparency of account actions and provide clearer recovery and appeal mechanisms."
+    },
+    {
+      "area": "ads_monetization",
+      "problem_summary": "Users report excessive ads or aggressive monetization.",
+      "evidence": [
+        "TIKTOK IS NOT TIKTOK ANYMORE More ads than content.",
+        "And now you’ve updated so copycat Threads.",
+        "Love hate It’s mostly ads for dumb mobile games, AI garbage, useless Lemon 8 notifications that you can’t turn off and a blocking function that doesn’t work."
+      ],
+      "count": 3,
+      "total": 15,
+      "confidence": 0.2,
+      "recommendation": "Review ad density and targeting rules to reduce disruption to core usage."
+    },
+    {
+      "area": "usability",
+      "problem_summary": "Users experience usability or interaction issues with the app.",
+      "evidence": [
+        "Social media has lost the plot quicker than Netflix."
+      ],
+      "count": 1,
+      "total": 15,
+      "confidence": 0.07,
+      "recommendation": "Review recent UX changes and validate them through usability testing to reduce friction in common user flows."
+    },
+    {
+      "area": "other",
+      "problem_summary": "Users report issues that do not fit common categories.",
+      "evidence": [
+        "They turn a blind eye to black issues and racism.",
+        "No streaks I cannot streaks friend and I want STREAKS",
+        "Spam So I just sign up for it and already I’m getting spam text.",
+        "problem about the videos when I post something or a lot of pictures they don’t separate, it’s turn into a video and not pictures and I wanted to be a picture I can browse on, but I can’t decide which one I wanna do pls fix this problem it’s so bad",
+        "Static Recently trying to upload, pics or videos will have obnoxious static sounds and won't upload at all saying failed"
+      ],
+      "count": 7,
+      "total": 15,
+      "confidence": 0.47,
+      "recommendation": "Manually review these reports to identify emerging or uncategorized problems."
+    }
+  ]
+}

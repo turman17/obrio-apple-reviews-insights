@@ -1,0 +1,176 @@
+{
+  "app_name": "facebook",
+  "generated_at": "2025-12-25T13:10:35",
+  "metrics": {
+    "average_rating": 2.74,
+    "rating_distribution": {
+      "1_star": 42.0,
+      "2_star": 12.0,
+      "3_star": 9.0,
+      "4_star": 4.0,
+      "5_star": 33.0
+    },
+    "total_reviews": 100
+  },
+  "sentiment_distribution": {
+    "positive": 40,
+    "neutral": 25,
+    "negative": 35
+  },
+  "negative_phrases": [
+    "I can’t read a single post and get a notification without the stupidity app refreshing.",
+    "Meta’s moderation is notoriously selective: inflammatory, antagonistic content often stays up unchecked, while honest, candid responses defending yourself get flagged as “violations,” leading to arbitrary restrictions or bans.",
+    "Worst of all, it’s profoundly detrimental to children’s mental health—studies link heavy use to increased anxiety, depression, and body image issues due to endless comparison, cyberbullying, and addictive design.",
+    "My business pages intellectual property, advertising campaigns, client and professional network built over years and years of hardworking— GONE!",
+    "And forget about their false advertisement that if you pay $149 a month for meta verified business and $15 a month for personal accounts that you will have next level customer service and access to a human.",
+    "I have spent thousand in advertising for my reputable business.",
+    "The fact that I had a benign grandma account with cats, kids, and a 5 star business get shut down is absurd.",
+    "Disappointed To many ads and not showing friends comments",
+    "\"Something went wrong\" I have notifications for the different sections like marketplace but if I actually try to open up postings, I keep getting the same error message with no fix.",
+    "Too many fake ads too many ads that are for companies that are dis reputable and not real too much political drama on both sides.",
+    "Just use it for marketplace - which is getting weirder with odd AI adds that are click tricks.",
+    "With all of the adds and now the loss of marketplace I may just be done with Facebook all together.",
+    "Bad AI Fake accounts/Hacking/Click bait/",
+    "Garbage marketplace restrictions So stupid restriction on how many chats per day is garbage how do they expect people to sell their products or buy anything when you’re restricted to like a few chats a day worthless app deleted and went to mercari and other marketplaces waste of time and stress",
+    "Too many ads Not enough friend post",
+    "Zuckerberg is a criminal Just delete it and never look back.",
+    "It’s like they found out how to make getting paper cuts on your cuticles addictive.",
+    "App crashes when adding verification code It lets me log in but when I add the verification code it sent me to my email, it crashes and says ‘something went wrong.’",
+    "Way too many Ads Way to many Ads!!!",
+    "Every other post is an ad and nothing from our friends.",
+    "Nothing but ads Nothing more than non stop ads that drown out what you see from your actual friends.",
+    "Facebook has turned into adware garbage.",
+    "Facebook I love Facebook but hate all the ad interruptions.",
+    "ad get rid of ads i dont care about any of the ads cause dont buy from people on line seems all i get is ads total sell outs",
+    "Censoring Constant censoring and ridiculous amount of ads."
+  ],
+  "negative_keywords": [
+    [
+      "facebook",
+      23
+    ],
+    [
+      "friends",
+      8
+    ],
+    [
+      "many",
+      8
+    ],
+    [
+      "account",
+      7
+    ],
+    [
+      "post",
+      6
+    ],
+    [
+      "getting",
+      6
+    ],
+    [
+      "business",
+      6
+    ],
+    [
+      "people",
+      6
+    ],
+    [
+      "marketplace",
+      6
+    ],
+    [
+      "something",
+      6
+    ]
+  ],
+  "insights": [
+    {
+      "area": "account_access",
+      "problem_summary": "Customers encounter difficulties with account management, restrictions, or login processes.",
+      "evidence": [
+        "Meta’s moderation is notoriously selective: inflammatory, antagonistic content often stays up unchecked, while honest, candid responses defending yourself get flagged as “violations,” leading to arbitrary restrictions or bans.",
+        "And forget about their false advertisement that if you pay $149 a month for meta verified business and $15 a month for personal accounts that you will have next level customer service and access to a human.",
+        "The fact that I had a benign grandma account with cats, kids, and a 5 star business get shut down is absurd.",
+        "Garbage marketplace restrictions So stupid restriction on how many chats per day is garbage how do they expect people to sell their products or buy anything when you’re restricted to like a few chats a day worthless app deleted and went to mercari and other marketplaces waste of time and stress"
+      ],
+      "count": 4,
+      "total": 14,
+      "confidence": 0.29,
+      "recommendation": "Enhance the clarity of account-related notifications and establish more effective recovery and appeal procedures."
+    },
+    {
+      "area": "ads_monetization",
+      "problem_summary": "Users express dissatisfaction with intrusive advertisements or aggressive revenue strategies.",
+      "evidence": [
+        "Disappointed To many ads and not showing friends comments",
+        "Too many fake ads too many ads that are for companies that are dis reputable and not real too much political drama on both sides.",
+        "Too many ads Not enough friend post"
+      ],
+      "count": 3,
+      "total": 14,
+      "confidence": 0.21,
+      "recommendation": "Evaluate ad frequency and targeting to minimize disruptions to regular user activities."
+    },
+    {
+      "area": "usability",
+      "problem_summary": "There are issues that affect how users interact with the application.",
+      "evidence": [
+        "Worst of all, it’s profoundly detrimental to children’s mental health—studies link heavy use to increased anxiety, depression, and body image issues due to endless comparison, cyberbullying, and addictive design.",
+        "My business pages intellectual property, advertising campaigns, client and professional network built over years and years of hardworking— GONE!"
+      ],
+      "count": 2,
+      "total": 14,
+      "confidence": 0.14,
+      "recommendation": "Reassess recent design modifications through usability testing to ensure smooth navigation in typical user journeys."
+    },
+    {
+      "area": "Advertising",
+      "problem_summary": "Ineffective and misleading advertisements.",
+      "evidence": [
+        "I have spent thousand in advertising for my reputable business.",
+        "Just use it for marketplace - which is getting weirder with odd AI adds that are click tricks."
+      ],
+      "count": 2,
+      "total": 14,
+      "confidence": 0.14,
+      "recommendation": "Facebook should enhance its algorithm to ensure that ads are more relevant and not misleading."
+    },
+    {
+      "area": "Marketplace",
+      "problem_summary": "Decline of the Marketplace feature and user dissatisfaction.",
+      "evidence": [
+        "Just use it for marketplace - which is getting weirder with odd AI adds that are click tricks.",
+        "With all of the adds and now the loss of marketplace I may just be done with Facebook all together."
+      ],
+      "count": 2,
+      "total": 14,
+      "confidence": 0.14,
+      "recommendation": "Facebook should reinvest in improving the functionality and attractiveness of the Marketplace to retain users."
+    },
+    {
+      "area": "customer_support",
+      "problem_summary": "Customers complain about inadequate or hard-to-reach support services.",
+      "evidence": [
+        "And forget about their false advertisement that if you pay $149 a month for meta verified business and $15 a month for personal accounts that you will have next level customer service and access to a human."
+      ],
+      "count": 1,
+      "total": 14,
+      "confidence": 0.07,
+      "recommendation": "Boost response times and provide clear escalation protocols, particularly for business and verified accounts."
+    },
+    {
+      "area": "User Experience",
+      "problem_summary": "Frequent errors and interruptions in reading posts.",
+      "evidence": [
+        "\"Something went wrong\" I have notifications for the different sections like marketplace but if I actually try to open up postings, I keep getting the same error message with no fix."
+      ],
+      "count": 1,
+      "total": 14,
+      "confidence": 0.07,
+      "recommendation": "Facebook should improve its error handling mechanisms to prevent users from encountering 'Something went wrong' messages frequently."
+    }
+  ]
+}
