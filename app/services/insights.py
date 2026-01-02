@@ -7,6 +7,7 @@ from nltk.corpus import stopwords
 from nltk.data import find
 
 from sklearn.feature_extraction.text import CountVectorizer
+from app.services.area_mapping import map_phrase_to_area, map_phrase_to_areas, score_phrase_areas
 
 logger = logging.getLogger(__name__)
 _SIA = None
@@ -131,193 +132,15 @@ def extract_negative_phrases(reviews: List[dict], top_n: int = 10):
     return ranked[:top_n]
 
 
-def map_phrase_to_area(text: str) -> str:
-    areas = map_phrase_to_areas(text)
-    return areas[0] if areas else "other"
-
-
-def map_phrase_to_areas(text: str) -> List[str]:
-    t = text.lower()
-    areas = []
-
-    if any(
-        w in t
-        for w in [
-            "ban",
-            "banned",
-            "suspend",
-            "suspended",
-            "login",
-            "account",
-            "blocked",
-            "verification",
-            "delete",
-            "deleted",
-            "removed",
-            "community guidelines",
-            "violat",
-            "appeal",
-        ]
-    ):
-        areas.append("account_access")
-
-    if any(
-        w in t
-        for w in [
-            "crash",
-            "crashes",
-            "freeze",
-            "frozen",
-            "lag",
-            "glitch",
-            "bug",
-            "stops working",
-            "not working",
-            "won't open",
-            "doesn't open",
-            "keeps crashing",
-        ]
-    ):
-        areas.append("stability")
-
-    if any(
-        w in t
-        for w in [
-            "settings",
-            "ui",
-            "interface",
-            "hard to",
-            "difficult",
-            "annoying",
-            "switching",
-            "controls",
-            "layout",
-            "navigation",
-            "design",
-        ]
-    ):
-        areas.append("usability")
-
-    if any(
-        w in t
-        for w in [
-            "ads",
-            "advertisement",
-            "advertisements",
-            "sponsored",
-            "promoted",
-            "ad spam",
-            "too many ads",
-        ]
-    ):
-        areas.append("ads_monetization")
-
-    if any(
-        w in t
-        for w in [
-            "support",
-            "customer service",
-            "customer support",
-            "no response",
-            "cannot get in touch",
-            "cant reach",
-        ]
-    ):
-        areas.append("customer_support")
-
-    if any(w in t for w in ["juego", "jugar", "idioma"]):
-        areas.append("localization")
-
-    return areas or ["other"]
-
-
-def score_phrase_areas(text: str) -> Dict[str, int]:
-    t = text.lower()
-    scores = defaultdict(int)
-
-    def add(area: str, keywords: List[str]) -> None:
-        for kw in keywords:
-            if kw in t:
-                scores[area] += 1
-
-    add(
-        "account_access",
-        [
-            "ban",
-            "banned",
-            "suspend",
-            "suspended",
-            "login",
-            "account",
-            "blocked",
-            "verification",
-            "delete",
-            "deleted",
-            "removed",
-            "community guidelines",
-            "violat",
-            "appeal",
-        ],
-    )
-    add(
-        "stability",
-        [
-            "crash",
-            "crashes",
-            "freeze",
-            "frozen",
-            "lag",
-            "glitch",
-            "bug",
-            "stops working",
-            "not working",
-            "won't open",
-            "doesn't open",
-            "keeps crashing",
-        ],
-    )
-    add(
-        "usability",
-        [
-            "settings",
-            "ui",
-            "interface",
-            "hard to",
-            "difficult",
-            "annoying",
-            "switching",
-            "controls",
-            "layout",
-            "navigation",
-            "design",
-        ],
-    )
-    add(
-        "customer_support",
-        [
-            "support",
-            "customer service",
-            "customer support",
-            "no response",
-            "cannot get in touch",
-            "cant reach",
-        ],
-    )
-    add(
-        "ads_monetization",
-        [
-            "ads",
-            "advertisement",
-            "advertisements",
-            "sponsored",
-            "promoted",
-            "ad spam",
-            "too many ads",
-        ],
-    )
-    add("localization", ["juego", "jugar", "idioma"])
-
-    return scores
+__all__ = [
+    "extract_negative_keywords",
+    "extract_negative_phrases",
+    "map_phrase_to_area",
+    "map_phrase_to_areas",
+    "score_phrase_areas",
+    "generate_insights",
+    "add_sentiment",
+]
 
 
 AREA_TEMPLATES = {

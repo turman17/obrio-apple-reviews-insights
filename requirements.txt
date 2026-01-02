@@ -1,5 +1,6 @@
 fastapi
 uvicorn
+httpx
 pandas
 nltk
 scikit-learn

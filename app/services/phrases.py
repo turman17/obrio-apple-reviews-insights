@@ -2,6 +2,7 @@ import re
 from typing import List
 
 from nltk.tokenize import sent_tokenize
+from app.services.area_mapping import map_phrase_to_area, map_phrase_to_areas
 
 PROBLEM_VERBS = [
     "crash", "crashed", "vanish", "vanished", "disappear", "disappeared",
@@ -12,6 +13,7 @@ PROBLEM_VERBS = [
 
 def normalize_sentence(sentence: str) -> str:
     sentence = sentence.strip()
+    sentence = sentence.rstrip(".!?")
 
     prefixes = [
         "so while", "i’m gonna", "i am gonna",
@@ -93,22 +95,10 @@ def is_problem_sentence(sentence: str) -> bool:
     return True
 
 
-def map_phrase_to_area(phrase: str) -> str:
-    areas = map_phrase_to_areas(phrase)
-    return areas[0] if areas else "other"
-
-
-def map_phrase_to_areas(phrase: str) -> list[str]:
-    areas = []
-    s = phrase.lower()
-
-    if any(w in s for w in ["crash", "vanish", "disappear", "lag", "freeze"]):
-        areas.append("stability")
-    if any(w in s for w in ["cant", "unable", "hard", "using", "controls"]):
-        areas.append("usability")
-    if any(w in s for w in ["login", "account", "ban", "blocked"]):
-        areas.append("account_access")
-    if any(w in s for w in ["juego", "jugar", "idioma"]):
-        areas.append("localization")
-
-    return areas or ["other"]
+__all__ = [
+    "extract_problem_sentences",
+    "split_sentences",
+    "is_problem_sentence",
+    "map_phrase_to_area",
+    "map_phrase_to_areas",
+]

@@ -24,11 +24,11 @@ def health_check():
 
 
 @router.post("/collect", response_model=CollectResponse)
-def collect_reviews_endpoint(payload: CollectRequest):
+async def collect_reviews_endpoint(payload: CollectRequest):
     correlation_id = uuid.uuid4().hex
     start_time = time.perf_counter()
     try:
-        reviews = collect_reviews(app_name=payload.app_name, limit=payload.limit)
+        reviews = await collect_reviews(app_name=payload.app_name, limit=payload.limit)
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
 
@@ -80,7 +80,7 @@ def get_reviews(app_name: str):
 
 
 @router.get("/insights", response_model=InsightsResponse)
-def get_insights(
+async def get_insights(
     app_name: str,
     auto_collect: bool = False,
     limit: int = Query(default=100, ge=10, le=300),
@@ -102,7 +102,7 @@ def get_insights(
             )
 
         try:
-            reviews = collect_reviews(app_name=app_name, limit=limit)
+            reviews = await collect_reviews(app_name=app_name, limit=limit)
         except Exception as e:
             raise HTTPException(
                 status_code=400, detail=f"Auto-collection failed: {str(e)}"
